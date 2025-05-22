@@ -1,0 +1,168 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #1f2937;
+    color: white;
+    align-items: center;
+    padding: 16px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 100px 265px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    max-width: 400px;
+}
+
+.placeholder-box {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 117, 128);
+}
+
+.button1 {
+    padding: 6px 24px;
+    color: white;
+    background: #3882f6;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-disc {
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-bottom: 24px;
+}
+
+h2 {
+    text-align: center;
+    margin: 48px;
+    font-size: 30px;
+}
+
+.info {
+    display: flex;
+    gap: 48px;
+    color: rgb(112, 117, 128);
+    padding: 0px px;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.box {
+    border: 3px solid blue;
+    border-radius: 20px;
+    height: 175px;
+    width: 175px;
+}
+
+.boxntext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: min-content;
+    gap: 8px;
+}
+
+.quote-box {
+    background: #e5e7eb;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px 300px;
+    font-size: 36px;
+    font-style: italic;
+    flex-wrap: nowrap;
+    height: max-content;
+}
+
+.diddy {
+    align-self: flex-end;
+    font-size: 28px;
+    margin-right: 50px;
+    font-style: normal;
+}
+
+.button2 {
+    padding: 6px 24px;
+    align-self: flex-end;
+    background: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+}
+
+.popup {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    background: #3882f6;
+    margin: 100px 300px;
+    padding: 30px 40px;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.713);
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.footer-box {
+    background: #1f2937;
+    padding: 24px;
+    font-size: 14px;
+}
+
+.popup-text-header {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
